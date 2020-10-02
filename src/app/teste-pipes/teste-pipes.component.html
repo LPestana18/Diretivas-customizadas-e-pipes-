@@ -1,0 +1,12 @@
+<div class="container">
+    <p>{{endereco | json}}</p>
+    <p>{{valorDoDolar | currency}}</p>
+    <p>{{data | date}}</p>
+    <p>{{inflacao | percent}}</p>
+    <p>{{valorDecimal | number}}</p>
+    <p>{{nome | titlecase}}</p>
+
+    <!--numero minimo de digitos para a parte inteira, numero minimo e maximo para a parte
+decimal-->
+    <p>{{valorDecimal | number: '2.1-5'}}</p>
+</div>
